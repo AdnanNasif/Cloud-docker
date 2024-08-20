@@ -1,4 +1,4 @@
-services:
+```services:
   jellyfin:
     image: jellyfin/jellyfin
     container_name: jellyfin
@@ -15,3 +15,4 @@ services:
         target: /media2
         read_only: true
     restart: 'unless-stopped'
+```
