@@ -8,3 +8,13 @@
 [2024-08-20 07:25:44.318 +00:00] [WRN] [47] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
 [2024-08-20 07:25:44.325 +00:00] [INF] [16] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
 [2024-08-20 07:25:44.326 +00:00] [INF] [47] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
+[2024-08-20 08:34:32.925 +00:00] [INF] [23] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-20 08:37:20.945 +00:00] [INF] [10] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-20 08:40:08.945 +00:00] [INF] [242] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-20 08:42:56.944 +00:00] [INF] [242] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-20 08:46:20.945 +00:00] [INF] [47] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-20 08:49:08.945 +00:00] [INF] [42] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-20 08:51:56.945 +00:00] [INF] [185] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-20 08:55:20.946 +00:00] [INF] [191] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-20 08:58:08.945 +00:00] [INF] [201] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-20 09:00:56.944 +00:00] [INF] [207] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
