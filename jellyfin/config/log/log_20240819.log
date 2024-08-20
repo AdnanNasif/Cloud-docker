@@ -265,3 +265,22 @@
 [2024-08-19 10:30:18.333 +00:00] [INF] [19] Jellyfin.Api.Helpers.MediaInfoHelper: User policy for "root". EnablePlaybackRemuxing: True EnableVideoPlaybackTranscoding: True EnableAudioPlaybackTranscoding: True
 [2024-08-19 10:31:59.141 +00:00] [INF] [3] Emby.Server.Implementations.Session.SessionManager: Playback stopped reported by app "Jellyfin Web" "10.9.9" playing "video.mp4". Stopped at "1572" ms
 [2024-08-19 10:31:59.194 +00:00] [INF] [20] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-19 19:25:40.044 +00:00] [INF] [53] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2024-08-19 19:25:40.094 +00:00] [INF] [48] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2024-08-19 19:25:40.126 +00:00] [INF] [46] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2024-08-19 19:25:40.154 +00:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Audio Normalization" Completed after 0 minute(s) and 0 seconds
+[2024-08-19 19:25:40.184 +00:00] [INF] [52] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2024-08-19 19:25:40.261 +00:00] [INF] [48] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2024-08-19 19:25:40.333 +00:00] [INF] [53] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2024-08-19 19:25:40.371 +00:00] [INF] [53] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: jellyfin.db optimized successfully!
+[2024-08-19 19:25:40.371 +00:00] [INF] [53] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2024-08-19 19:25:43.818 +00:00] [INF] [48] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media"
+[2024-08-19 19:25:43.820 +00:00] [INF] [48] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-19 19:25:44.021 +00:00] [WRN] [48] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-19 19:25:44.085 +00:00] [WRN] [48] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-19 19:25:44.159 +00:00] [INF] [51] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/media/video.mp4.mp4\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-08-19 19:25:44.308 +00:00] [INF] [48] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-19 19:25:44.309 +00:00] [INF] [52] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
+[2024-08-19 19:25:48.444 +00:00] [INF] [48] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-08-19 20:25:47.247 +00:00] [INF] [62] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
+[2024-08-19 20:25:47.254 +00:00] [INF] [62] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
