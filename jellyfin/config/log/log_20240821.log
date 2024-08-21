@@ -88,3 +88,15 @@
 [2024-08-21 04:10:59.145 +00:00] [INF] [135] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
 [2024-08-21 04:14:23.145 +00:00] [INF] [129] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
 [2024-08-21 04:17:11.145 +00:00] [INF] [144] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-21 04:19:59.145 +00:00] [INF] [83] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-21 04:22:47.149 +00:00] [INF] [80] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-21 04:26:23.145 +00:00] [INF] [79] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-21 04:29:11.144 +00:00] [INF] [216] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-21 04:31:59.144 +00:00] [INF] [213] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-21 04:32:56.696 +00:00] [INF] [68] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-21 07:25:46.941 +00:00] [INF] [221] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media"
+[2024-08-21 07:25:46.942 +00:00] [INF] [221] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-21 07:25:46.946 +00:00] [WRN] [221] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-21 07:25:46.951 +00:00] [WRN] [183] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-21 07:25:46.956 +00:00] [INF] [221] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-21 07:25:46.956 +00:00] [INF] [183] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
