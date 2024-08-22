@@ -1,0 +1,9 @@
+services:
+  apache2:
+    image: httpd:latest
+    container_name: my-apache-compose
+    ports:
+    - '8080:80'
+    volumes:
+    - /home/adnan/mygithub/Cloud-docker/apache/html:/usr/local/apache2/htdocs  
+   # - /home/adnan/mygithub/Cloud-docker/apache/config:
