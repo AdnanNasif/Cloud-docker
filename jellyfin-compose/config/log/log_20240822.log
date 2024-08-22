@@ -41,3 +41,7 @@ System.Net.Http.HttpRequestException: No data available (blr1.mirror.jellyfin.or
 [2024-08-22 05:23:46.743 +00:00] [INF] [129] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
 [2024-08-22 06:23:55.371 +00:00] [INF] [81] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
 [2024-08-22 06:23:55.372 +00:00] [INF] [81] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2024-08-22 17:23:47.922 +00:00] [INF] [151] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-22 17:23:47.926 +00:00] [WRN] [151] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-22 17:23:47.928 +00:00] [WRN] [150] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-22 17:23:47.930 +00:00] [INF] [152] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
