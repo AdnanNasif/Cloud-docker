@@ -18,3 +18,7 @@
 [2024-08-21 05:23:45.775 +00:00] [INF] [181] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
 [2024-08-21 06:23:54.420 +00:00] [INF] [136] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
 [2024-08-21 06:23:54.421 +00:00] [INF] [136] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2024-08-21 17:23:45.775 +00:00] [INF] [170] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-21 17:23:45.778 +00:00] [WRN] [170] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-21 17:23:45.780 +00:00] [WRN] [117] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-21 17:23:45.783 +00:00] [INF] [112] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
