@@ -8,10 +8,10 @@ services:
       - /home/adnan/mygithub/Cloud-docker/jellyfin-compose/config:/config
       - /home/adnan/mygithub/Cloud-docker/jellyfin-compose/cache:/cache
       - type: bind
-        source: /home/adnan/mygithub/Cloud-docker/jellyfin-compose/media
+        source: /home/adnan/nfs/media
         target: /media
-      - type: bind
-        source: /home/adnan/mygithub/Cloud-docker/jellyfin-compose/media2
+    #  - type: bind
+        source: /home/adnan/nfs/media2
         target: /media2
         read_only: true
     restart: 'unless-stopped'

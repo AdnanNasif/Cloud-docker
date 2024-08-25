@@ -18,3 +18,871 @@
 [2024-08-25 05:23:47.970 +00:00] [INF] [188] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
 [2024-08-25 06:23:56.548 +00:00] [INF] [56] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
 [2024-08-25 06:23:56.549 +00:00] [INF] [56] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2024-08-25 08:54:23.313 +00:00] [INF] [183] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2024-08-25 08:54:23.323 +00:00] [INF] [121] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2024-08-25 08:54:23.329 +00:00] [INF] [182] Main: Running query planner optimizations in the database... This might take a while
+[2024-08-25 08:54:23.374 +00:00] [INF] [182] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2024-08-25 08:54:23.374 +00:00] [INF] [182] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2024-08-25 08:54:23.374 +00:00] [INF] [182] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2024-08-25 08:54:23.374 +00:00] [INF] [182] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"
+[2024-08-25 08:55:51.237 +00:00] [INF] [1] Main: Jellyfin version: "10.9.9"
+[2024-08-25 08:55:51.257 +00:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_DATA_DIR, /config]"]
+[2024-08-25 08:55:51.260 +00:00] [INF] [1] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2024-08-25 08:55:51.260 +00:00] [INF] [1] Main: Operating system: "Debian GNU/Linux 12 (bookworm)"
+[2024-08-25 08:55:51.260 +00:00] [INF] [1] Main: Architecture: X64
+[2024-08-25 08:55:51.261 +00:00] [INF] [1] Main: 64-Bit Process: True
+[2024-08-25 08:55:51.261 +00:00] [INF] [1] Main: User Interactive: True
+[2024-08-25 08:55:51.261 +00:00] [INF] [1] Main: Processor count: 4
+[2024-08-25 08:55:51.261 +00:00] [INF] [1] Main: Program data path: "/config"
+[2024-08-25 08:55:51.261 +00:00] [INF] [1] Main: Log directory path: "/config/log"
+[2024-08-25 08:55:51.261 +00:00] [INF] [1] Main: Config directory path: "/config/config"
+[2024-08-25 08:55:51.261 +00:00] [INF] [1] Main: Cache path: "/cache"
+[2024-08-25 08:55:51.261 +00:00] [INF] [1] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2024-08-25 08:55:51.261 +00:00] [INF] [1] Main: Application directory: "/jellyfin/"
+[2024-08-25 08:55:51.373 +00:00] [INF] [1] Jellyfin.Server.Migrations.MigrationRunner: Marking following migrations as applied because this is a fresh install: ["CreateNetworkConfiguration", "MigrateMusicBrainzTimeout", "MigrateNetworkConfiguration"]
+[2024-08-25 08:55:51.408 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2024-08-25 08:55:51.441 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2024-08-25 08:55:51.505 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 08:55:51.506 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2024-08-25 08:55:51.506 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 08:55:51.507 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.18.0.2"]
+[2024-08-25 08:55:51.508 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2024-08-25 08:55:51.508 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2024-08-25 08:55:51.508 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2024-08-25 08:55:53.055 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.9.9.0"
+[2024-08-25 08:55:53.056 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.9.9.0"
+[2024-08-25 08:55:53.057 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.9.9.0"
+[2024-08-25 08:55:53.078 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.9.9.0"
+[2024-08-25 08:55:53.079 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.9.9.0"
+[2024-08-25 08:55:53.123 +00:00] [INF] [1] Jellyfin.Server.Migrations.MigrationRunner: Marking following migrations as applied because this is a fresh install: ["DisableTranscodingThrottling", "CreateLoggingConfigHeirarchy", "MigrateActivityLogDatabase", "RemoveDuplicateExtras", "MigrateUserDatabase", "MigrateDisplayPreferencesDatabase", "RemoveDownloadImagesInAdvance", "MigrateAuthenticationDatabase", "FixPlaylistOwner", "MigrateRatingLevels", "FixAudioData"]
+[2024-08-25 08:55:53.160 +00:00] [INF] [1] Main: Kestrel is listening on "0.0.0.0"
+[2024-08-25 08:55:53.683 +00:00] [WRN] [1] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2024-08-25 08:55:53.766 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2024-08-25 08:55:53.786 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-08-26 03:00:00.000 +00:00, which is 18:04:06.2134609 from now.
+[2024-08-25 08:55:53.790 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-08-26 02:00:00.000 +00:00, which is 17:04:06.2094013 from now.
+[2024-08-25 08:55:53.829 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "6.0.1"
+[2024-08-25 08:55:53.896 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "dca", "flac", "mp3", "truehd"]
+[2024-08-25 08:55:53.918 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2024-08-25 08:55:53.943 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2024-08-25 08:55:54.088 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2024-08-25 08:55:54.663 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2024-08-25 08:55:54.663 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "00a79f52b1614beb8dc9ed365acf9661"
+[2024-08-25 08:55:54.663 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2024-08-25 08:55:54.664 +00:00] [INF] [1] Main: Startup complete 0:00:03.5964974
+[2024-08-25 08:55:56.807 +00:00] [INF] [16] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:55:58.531 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-08-25 08:55:59.593 +00:00] [INF] [16] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2024-08-25 08:55:59.602 +00:00] [INF] [16] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2024-08-25 08:55:59.604 +00:00] [INF] [11] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2024-08-25 08:55:59.638 +00:00] [WRN] [17] Jellyfin.Server.Implementations.Users.UserManager: No users, creating one with username "root"
+[2024-08-25 08:56:35.606 +00:00] [INF] [15] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2024-08-25 08:56:35.611 +00:00] [INF] [15] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2024-08-25 08:56:37.837 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 08:56:37.838 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2024-08-25 08:56:37.838 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 08:56:37.838 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.18.0.2"]
+[2024-08-25 08:56:37.838 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2024-08-25 08:56:37.838 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2024-08-25 08:56:37.838 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2024-08-25 08:56:38.787 +00:00] [INF] [15] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Saving system configuration
+[2024-08-25 08:56:38.792 +00:00] [INF] [15] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2024-08-25 08:56:38.796 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:56:39.026 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:56:39.026 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:56:39.028 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:56:39.119 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:56:39.120 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:56:39.120 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:56:39.137 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:56:44.673 +00:00] [INF] [18] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "root" has succeeded.
+[2024-08-25 08:56:44.674 +00:00] [INF] [18] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "root": 0/0
+[2024-08-25 08:56:44.677 +00:00] [INF] [18] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user e24232a2-d5b9-4ce3-8823-3b8f20810b07
+[2024-08-25 08:56:44.915 +00:00] [INF] [16] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 08:56:56.995 +00:00] [INF] [11] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:56:56.998 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:56:56.999 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:56:56.999 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:56:57.007 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:56:57.008 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:56:57.008 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:56:57.010 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:56:57.875 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:56:57.877 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:56:57.877 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:56:57.877 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:56:57.885 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:56:57.885 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:56:57.885 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:56:57.887 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:56:59.014 +00:00] [INF] [11] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:56:59.017 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:56:59.017 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:56:59.017 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:56:59.026 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:56:59.026 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:56:59.026 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:56:59.028 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:57:15.027 +00:00] [INF] [11] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:57:15.029 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:57:15.029 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:57:15.030 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:57:15.039 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:57:15.039 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:57:15.040 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:57:15.042 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:57:17.319 +00:00] [INF] [11] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2024-08-25 08:57:17.328 +00:00] [INF] [20] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 08:57:17.335 +00:00] [INF] [16] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2024-08-25 08:57:17.339 +00:00] [INF] [15] Main: Running query planner optimizations in the database... This might take a while
+[2024-08-25 08:57:17.386 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2024-08-25 08:57:17.386 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2024-08-25 08:57:17.386 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2024-08-25 08:57:17.386 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"
+[2024-08-25 08:57:17.388 +00:00] [INF] [15] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2024-08-25 08:57:17.404 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2024-08-25 08:57:17.421 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 08:57:17.421 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2024-08-25 08:57:17.421 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 08:57:17.421 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.18.0.2"]
+[2024-08-25 08:57:17.421 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2024-08-25 08:57:17.421 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2024-08-25 08:57:17.421 +00:00] [INF] [15] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2024-08-25 08:57:17.480 +00:00] [INF] [15] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.9.9.0"
+[2024-08-25 08:57:17.480 +00:00] [INF] [15] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.9.9.0"
+[2024-08-25 08:57:17.481 +00:00] [INF] [15] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.9.9.0"
+[2024-08-25 08:57:17.482 +00:00] [INF] [15] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.9.9.0"
+[2024-08-25 08:57:17.482 +00:00] [INF] [15] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.9.9.0"
+[2024-08-25 08:57:17.525 +00:00] [INF] [15] Main: Kestrel is listening on "0.0.0.0"
+[2024-08-25 08:57:17.766 +00:00] [WRN] [15] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2024-08-25 08:57:17.775 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2024-08-25 08:57:17.781 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-08-26 03:00:00.000 +00:00, which is 18:02:42.2189019 from now.
+[2024-08-25 08:57:17.781 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-08-26 02:00:00.000 +00:00, which is 17:02:42.2185476 from now.
+[2024-08-25 08:57:17.808 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "6.0.1"
+[2024-08-25 08:57:17.839 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "dca", "flac", "mp3", "truehd"]
+[2024-08-25 08:57:17.865 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2024-08-25 08:57:17.886 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2024-08-25 08:57:18.045 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2024-08-25 08:57:18.565 +00:00] [INF] [15] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2024-08-25 08:57:18.565 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: ServerId: "00a79f52b1614beb8dc9ed365acf9661"
+[2024-08-25 08:57:18.565 +00:00] [INF] [15] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2024-08-25 08:57:18.565 +00:00] [INF] [15] Main: Startup complete 0:00:01.1784104
+[2024-08-25 08:57:20.782 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:57:22.027 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-08-25 08:58:08.985 +00:00] [INF] [18] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 08:58:26.439 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:26.558 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:26.559 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:26.559 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:26.569 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:26.570 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:26.570 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:26.573 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:27.389 +00:00] [INF] [10] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:27.392 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:27.392 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:27.392 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:27.400 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:27.400 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:27.400 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:27.402 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:37.054 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:37.056 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.056 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.056 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.064 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.064 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.064 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.066 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:37.685 +00:00] [INF] [10] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:37.687 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.687 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.687 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.695 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.695 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.695 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.697 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:37.934 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:37.936 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.937 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.937 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.944 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.945 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.945 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:37.947 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:38.218 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:38.220 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.220 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.220 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.227 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.227 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.227 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.229 +00:00] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:38.618 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:38.620 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.620 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.620 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.627 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.627 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.627 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:38.629 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:39.087 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:39.088 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:39.089 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:39.089 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:39.095 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:39.095 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:39.095 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:39.097 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:46.627 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:46.629 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:46.629 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:46.629 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:46.636 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:46.636 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:46.636 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:46.638 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:47.311 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:47.313 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.313 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.313 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.323 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.324 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.324 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.326 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:47.512 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:47.515 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.515 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.515 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.525 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.526 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.526 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:47.528 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:58:48.079 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:58:48.081 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:48.081 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:48.081 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:48.089 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:58:48.089 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:58:48.089 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:58:48.092 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:08.585 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:08.588 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:08.588 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:08.588 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:08.596 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:08.596 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:08.596 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:08.598 +00:00] [INF] [23] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:09.269 +00:00] [INF] [3] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:09.271 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.271 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.271 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.278 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.278 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.278 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.280 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:09.919 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:09.921 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.921 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.921 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.928 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.928 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.928 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:09.930 +00:00] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:10.136 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:10.138 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.138 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.138 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.145 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.145 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.145 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.147 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:10.670 +00:00] [INF] [17] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:10.672 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.672 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.672 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.680 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.680 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.680 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.682 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:10.903 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:10.905 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.905 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.905 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.911 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.911 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.912 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:10.913 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:11.188 +00:00] [INF] [17] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:11.190 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.190 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.190 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.197 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.197 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.197 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.199 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:11.439 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:11.441 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.441 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.441 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.449 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.449 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.449 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.452 +00:00] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:11.840 +00:00] [INF] [3] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:11.841 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.841 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.841 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.847 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.848 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.848 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:11.849 +00:00] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:12.072 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:12.074 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.074 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.074 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.082 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.082 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.082 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.085 +00:00] [INF] [18] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:12.439 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:12.442 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.442 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.442 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.450 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.450 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.450 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.452 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:12.655 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:12.657 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.657 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.657 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.663 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.664 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.664 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.665 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:12.872 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:12.873 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.873 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.873 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.879 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.880 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.880 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:12.881 +00:00] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:13.089 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:13.090 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.090 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.090 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.097 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.097 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.097 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.099 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:13.290 +00:00] [INF] [3] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:13.292 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.292 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.292 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.301 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.301 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.301 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:13.304 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:23.734 +00:00] [INF] [17] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:23.736 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:23.736 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:23.737 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:23.744 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:23.744 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:23.744 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:23.745 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:24.568 +00:00] [INF] [10] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:24.569 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:24.570 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:24.570 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:24.576 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:24.576 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:24.576 +00:00] [WRN] [17] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:24.578 +00:00] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:25.369 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:25.371 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:25.371 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:25.371 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:25.380 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:25.380 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:25.380 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:25.383 +00:00] [INF] [23] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:54.395 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:54.397 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:54.397 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:54.397 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:54.404 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:54.404 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:54.404 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:54.406 +00:00] [INF] [23] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:55.087 +00:00] [INF] [23] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:55.089 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:55.089 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:55.089 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:55.095 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:55.095 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:55.095 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:55.097 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 08:59:56.103 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 08:59:56.105 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:56.105 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:56.105 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:56.111 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 08:59:56.111 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 08:59:56.111 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 08:59:56.113 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:00:58.721 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:00:58.724 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:00:58.724 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:00:58.724 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:00:58.731 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:00:58.732 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:00:58.732 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:00:58.734 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:00:59.406 +00:00] [INF] [18] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:00:59.408 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.408 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.408 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.415 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.415 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.415 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.417 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:00:59.940 +00:00] [INF] [10] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:00:59.942 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.942 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.942 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.949 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.949 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.949 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:00:59.951 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:01:00.226 +00:00] [INF] [3] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:01:00.227 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.228 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.228 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.234 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.234 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.234 +00:00] [WRN] [18] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.236 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:01:00.742 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:01:00.743 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.744 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.744 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.751 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.751 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.751 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.753 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:01:00.991 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:01:00.992 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.993 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:01:00.993 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:01:01.000 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:01:01.000 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:01:01.000 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:01:01.003 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:01:01.292 +00:00] [INF] [11] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:01:01.293 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:01:01.294 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:01:01.294 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:01:01.300 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:01:01.300 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:01:01.300 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:01:01.302 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:01:33.848 +00:00] [INF] [17] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:01:34.121 +00:00] [INF] [17] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:01:34.886 +00:00] [INF] [16] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:01:35.062 +00:00] [INF] [16] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:01:35.708 +00:00] [INF] [16] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:01:35.876 +00:00] [INF] [16] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:01:44.710 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2024-08-25 09:01:58.874 +00:00] [INF] [1] Main: Jellyfin version: "10.9.9"
+[2024-08-25 09:01:58.894 +00:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_CACHE_DIR, /cache]"]
+[2024-08-25 09:01:58.896 +00:00] [INF] [1] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2024-08-25 09:01:58.897 +00:00] [INF] [1] Main: Operating system: "Debian GNU/Linux 12 (bookworm)"
+[2024-08-25 09:01:58.897 +00:00] [INF] [1] Main: Architecture: X64
+[2024-08-25 09:01:58.897 +00:00] [INF] [1] Main: 64-Bit Process: True
+[2024-08-25 09:01:58.897 +00:00] [INF] [1] Main: User Interactive: True
+[2024-08-25 09:01:58.897 +00:00] [INF] [1] Main: Processor count: 4
+[2024-08-25 09:01:58.897 +00:00] [INF] [1] Main: Program data path: "/config"
+[2024-08-25 09:01:58.897 +00:00] [INF] [1] Main: Log directory path: "/config/log"
+[2024-08-25 09:01:58.897 +00:00] [INF] [1] Main: Config directory path: "/config/config"
+[2024-08-25 09:01:58.898 +00:00] [INF] [1] Main: Cache path: "/cache"
+[2024-08-25 09:01:58.898 +00:00] [INF] [1] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2024-08-25 09:01:58.898 +00:00] [INF] [1] Main: Application directory: "/jellyfin/"
+[2024-08-25 09:01:59.038 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2024-08-25 09:01:59.072 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2024-08-25 09:01:59.157 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 09:01:59.157 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2024-08-25 09:01:59.158 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 09:01:59.159 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.18.0.2"]
+[2024-08-25 09:01:59.159 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2024-08-25 09:01:59.159 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2024-08-25 09:01:59.159 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2024-08-25 09:02:00.802 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.9.9.0"
+[2024-08-25 09:02:00.803 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.9.9.0"
+[2024-08-25 09:02:00.804 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.9.9.0"
+[2024-08-25 09:02:00.827 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.9.9.0"
+[2024-08-25 09:02:00.827 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.9.9.0"
+[2024-08-25 09:02:00.935 +00:00] [INF] [1] Main: Kestrel is listening on "0.0.0.0"
+[2024-08-25 09:02:01.549 +00:00] [WRN] [1] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2024-08-25 09:02:01.577 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2024-08-25 09:02:01.598 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-08-26 03:00:00.000 +00:00, which is 17:57:58.4019524 from now.
+[2024-08-25 09:02:01.602 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-08-26 02:00:00.000 +00:00, which is 16:57:58.3975568 from now.
+[2024-08-25 09:02:01.638 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "6.0.1"
+[2024-08-25 09:02:01.707 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "dca", "flac", "mp3", "truehd"]
+[2024-08-25 09:02:01.730 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2024-08-25 09:02:01.754 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2024-08-25 09:02:01.895 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2024-08-25 09:02:02.430 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2024-08-25 09:02:02.431 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "00a79f52b1614beb8dc9ed365acf9661"
+[2024-08-25 09:02:02.431 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2024-08-25 09:02:02.431 +00:00] [INF] [1] Main: Startup complete 0:00:03.7212008
+[2024-08-25 09:02:04.619 +00:00] [INF] [16] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:02:06.434 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-08-25 09:02:32.303 +00:00] [INF] [8] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:02:36.571 +00:00] [INF] [8] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:02:36.766 +00:00] [WRN] [8] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:02:36.767 +00:00] [WRN] [8] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:02:36.769 +00:00] [WRN] [8] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:02:36.828 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:02:36.828 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:02:36.828 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:02:36.847 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:03:49.363 +00:00] [INF] [3] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:03:49.366 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:03:49.366 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:03:49.366 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:03:49.377 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:03:49.377 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:03:49.377 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:03:49.380 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:03:50.496 +00:00] [INF] [11] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:03:50.499 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:03:50.499 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:03:50.500 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:03:50.508 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:03:50.508 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:03:50.509 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:03:50.511 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:03:51.548 +00:00] [INF] [3] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:03:51.551 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:03:51.551 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:03:51.551 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:03:51.559 +00:00] [WRN] [8] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:03:51.559 +00:00] [WRN] [8] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:03:51.560 +00:00] [WRN] [8] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:03:51.561 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:03:52.345 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:03:52.348 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:03:52.348 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:03:52.348 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:03:52.356 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:03:52.356 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:03:52.357 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:03:52.358 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:03:53.314 +00:00] [INF] [3] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:03:53.316 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:03:53.316 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:03:53.316 +00:00] [WRN] [3] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:03:53.324 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:03:53.324 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:03:53.324 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:03:53.326 +00:00] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:04:15.888 +00:00] [INF] [10] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:04:15.891 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:04:15.891 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:04:15.892 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:04:15.902 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:04:15.902 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:04:15.902 +00:00] [WRN] [10] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:04:15.905 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:04:21.566 +00:00] [INF] [10] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2024-08-25 09:04:21.576 +00:00] [INF] [19] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:04:21.585 +00:00] [INF] [15] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2024-08-25 09:04:21.591 +00:00] [INF] [10] Main: Running query planner optimizations in the database... This might take a while
+[2024-08-25 09:04:21.620 +00:00] [INF] [10] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2024-08-25 09:04:21.620 +00:00] [INF] [10] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2024-08-25 09:04:21.620 +00:00] [INF] [10] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2024-08-25 09:04:21.620 +00:00] [INF] [10] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"
+[2024-08-25 09:04:21.622 +00:00] [INF] [10] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2024-08-25 09:04:21.624 +00:00] [INF] [10] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2024-08-25 09:04:21.627 +00:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 09:04:21.627 +00:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2024-08-25 09:04:21.627 +00:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 09:04:21.627 +00:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.18.0.2"]
+[2024-08-25 09:04:21.627 +00:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2024-08-25 09:04:21.627 +00:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2024-08-25 09:04:21.627 +00:00] [INF] [10] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2024-08-25 09:04:21.677 +00:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.9.9.0"
+[2024-08-25 09:04:21.677 +00:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.9.9.0"
+[2024-08-25 09:04:21.678 +00:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.9.9.0"
+[2024-08-25 09:04:21.678 +00:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.9.9.0"
+[2024-08-25 09:04:21.678 +00:00] [INF] [10] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.9.9.0"
+[2024-08-25 09:04:21.723 +00:00] [INF] [10] Main: Kestrel is listening on "0.0.0.0"
+[2024-08-25 09:04:22.007 +00:00] [WRN] [10] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2024-08-25 09:04:22.017 +00:00] [INF] [10] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2024-08-25 09:04:22.022 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-08-26 03:00:00.000 +00:00, which is 17:55:37.9771104 from now.
+[2024-08-25 09:04:22.023 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-08-26 02:00:00.000 +00:00, which is 16:55:37.9767527 from now.
+[2024-08-25 09:04:22.046 +00:00] [INF] [10] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "6.0.1"
+[2024-08-25 09:04:22.077 +00:00] [INF] [10] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "dca", "flac", "mp3", "truehd"]
+[2024-08-25 09:04:22.099 +00:00] [INF] [10] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2024-08-25 09:04:22.120 +00:00] [INF] [10] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2024-08-25 09:04:22.260 +00:00] [INF] [10] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2024-08-25 09:04:22.846 +00:00] [INF] [10] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2024-08-25 09:04:22.846 +00:00] [INF] [10] Emby.Server.Implementations.ApplicationHost: ServerId: "00a79f52b1614beb8dc9ed365acf9661"
+[2024-08-25 09:04:22.846 +00:00] [INF] [10] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2024-08-25 09:04:22.846 +00:00] [INF] [10] Main: Startup complete 0:00:01.2253023
+[2024-08-25 09:04:25.023 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:04:26.318 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-08-25 09:04:27.216 +00:00] [INF] [3] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:04:33.475 +00:00] [INF] [20] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:04:33.594 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:04:33.594 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:04:33.594 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:04:33.603 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:04:33.603 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:04:33.603 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:04:33.605 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:04:34.609 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:04:34.611 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:04:34.611 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:04:34.611 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:04:34.619 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:04:34.619 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:04:34.619 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:04:34.621 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:04:35.712 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:04:35.714 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:04:35.714 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:04:35.715 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:04:35.722 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:04:35.723 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:04:35.723 +00:00] [WRN] [11] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:04:35.725 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:04:36.512 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:04:36.514 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:04:36.514 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:04:36.514 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:04:36.522 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:04:36.522 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:04:36.522 +00:00] [WRN] [20] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:04:36.525 +00:00] [INF] [20] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:05:42.251 +00:00] [INF] [23] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:05:42.253 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.253 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.253 +00:00] [WRN] [23] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.260 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.261 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.261 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.262 +00:00] [INF] [15] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:05:42.699 +00:00] [INF] [22] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:05:42.701 +00:00] [WRN] [22] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.701 +00:00] [WRN] [22] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.701 +00:00] [WRN] [22] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.708 +00:00] [WRN] [24] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.708 +00:00] [WRN] [24] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.708 +00:00] [WRN] [24] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:05:42.710 +00:00] [INF] [24] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:08:01.955 +00:00] [INF] [10] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:08:02.288 +00:00] [INF] [10] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:08:04.129 +00:00] [INF] [28] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:08:04.316 +00:00] [INF] [26] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:09:37.225 +00:00] [INF] [36] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:09:37.227 +00:00] [WRN] [36] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.227 +00:00] [WRN] [36] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.227 +00:00] [WRN] [36] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.234 +00:00] [WRN] [36] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.234 +00:00] [WRN] [36] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.234 +00:00] [WRN] [36] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.236 +00:00] [INF] [36] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:09:37.958 +00:00] [INF] [32] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:09:37.960 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.960 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.960 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.967 +00:00] [WRN] [31] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.967 +00:00] [WRN] [31] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.967 +00:00] [WRN] [31] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:09:37.969 +00:00] [INF] [31] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:09:38.625 +00:00] [INF] [32] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:09:38.627 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:09:38.627 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:09:38.627 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:09:38.636 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:09:38.636 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:09:38.636 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:09:38.639 +00:00] [INF] [32] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:09:41.200 +00:00] [INF] [31] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:09:41.202 +00:00] [WRN] [31] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:09:41.202 +00:00] [WRN] [31] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:09:41.202 +00:00] [WRN] [31] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:09:41.209 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:09:41.209 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:09:41.209 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:09:41.211 +00:00] [INF] [32] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:10:21.491 +00:00] [INF] [32] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:10:21.514 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:10:21.514 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:10:21.521 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:10:21.521 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:10:21.523 +00:00] [INF] [32] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:10:44.663 +00:00] [INF] [30] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:10:44.666 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:10:44.666 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:10:44.667 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:10:44.674 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:10:44.674 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:10:44.674 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:10:44.676 +00:00] [INF] [30] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:10:55.376 +00:00] [INF] [19] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:10:55.378 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:10:55.378 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:10:55.378 +00:00] [WRN] [19] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:10:55.385 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:10:55.385 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:10:55.385 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:10:55.387 +00:00] [INF] [30] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:10:56.444 +00:00] [INF] [34] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:10:56.446 +00:00] [WRN] [34] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:10:56.446 +00:00] [WRN] [34] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:10:56.446 +00:00] [WRN] [34] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:10:56.453 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:10:56.453 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:10:56.453 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:10:56.456 +00:00] [INF] [30] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:10:57.230 +00:00] [INF] [30] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:10:57.232 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:10:57.232 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:10:57.232 +00:00] [WRN] [30] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:10:57.238 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media2" is inaccessible or empty, skipping
+[2024-08-25 09:10:57.238 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/media" is inaccessible or empty, skipping
+[2024-08-25 09:10:57.238 +00:00] [WRN] [32] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:10:57.240 +00:00] [INF] [30] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:12:52.328 +00:00] [INF] [33] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-25 09:16:28.328 +00:00] [INF] [17] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-08-25 09:16:55.414 +00:00] [INF] [23] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2024-08-25 09:17:22.275 +00:00] [INF] [1] Main: Jellyfin version: "10.9.9"
+[2024-08-25 09:17:22.295 +00:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_CACHE_DIR, /cache]"]
+[2024-08-25 09:17:22.297 +00:00] [INF] [1] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2024-08-25 09:17:22.297 +00:00] [INF] [1] Main: Operating system: "Debian GNU/Linux 12 (bookworm)"
+[2024-08-25 09:17:22.297 +00:00] [INF] [1] Main: Architecture: X64
+[2024-08-25 09:17:22.298 +00:00] [INF] [1] Main: 64-Bit Process: True
+[2024-08-25 09:17:22.298 +00:00] [INF] [1] Main: User Interactive: True
+[2024-08-25 09:17:22.298 +00:00] [INF] [1] Main: Processor count: 4
+[2024-08-25 09:17:22.298 +00:00] [INF] [1] Main: Program data path: "/config"
+[2024-08-25 09:17:22.298 +00:00] [INF] [1] Main: Log directory path: "/config/log"
+[2024-08-25 09:17:22.298 +00:00] [INF] [1] Main: Config directory path: "/config/config"
+[2024-08-25 09:17:22.298 +00:00] [INF] [1] Main: Cache path: "/cache"
+[2024-08-25 09:17:22.298 +00:00] [INF] [1] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2024-08-25 09:17:22.298 +00:00] [INF] [1] Main: Application directory: "/jellyfin/"
+[2024-08-25 09:17:22.439 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2024-08-25 09:17:22.472 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2024-08-25 09:17:22.555 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 09:17:22.555 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2024-08-25 09:17:22.555 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 09:17:22.556 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.18.0.2"]
+[2024-08-25 09:17:22.557 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2024-08-25 09:17:22.557 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2024-08-25 09:17:22.557 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2024-08-25 09:17:24.222 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.9.9.0"
+[2024-08-25 09:17:24.223 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.9.9.0"
+[2024-08-25 09:17:24.223 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.9.9.0"
+[2024-08-25 09:17:24.246 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.9.9.0"
+[2024-08-25 09:17:24.246 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.9.9.0"
+[2024-08-25 09:17:24.342 +00:00] [INF] [1] Main: Kestrel is listening on "0.0.0.0"
+[2024-08-25 09:17:24.361 +00:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {5ee15006-3f12-492f-82a0-2172221c0270} may be persisted to storage in unencrypted form.
+[2024-08-25 09:17:24.964 +00:00] [WRN] [1] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2024-08-25 09:17:24.993 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2024-08-25 09:17:25.013 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-08-26 03:00:00.000 +00:00, which is 17:42:34.9865554 from now.
+[2024-08-25 09:17:25.017 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-08-26 02:00:00.000 +00:00, which is 16:42:34.9822534 from now.
+[2024-08-25 09:17:25.052 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "6.0.1"
+[2024-08-25 09:17:25.112 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "dca", "flac", "mp3", "truehd"]
+[2024-08-25 09:17:25.135 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2024-08-25 09:17:25.158 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2024-08-25 09:17:25.301 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2024-08-25 09:17:25.845 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2024-08-25 09:17:25.846 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "00a79f52b1614beb8dc9ed365acf9661"
+[2024-08-25 09:17:25.846 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2024-08-25 09:17:25.846 +00:00] [INF] [1] Main: Startup complete 0:00:03.7412156
+[2024-08-25 09:17:28.033 +00:00] [INF] [16] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:17:28.039 +00:00] [INF] [17] Emby.Server.Implementations.Session.SessionManager: Sending shutdown notifications
+[2024-08-25 09:17:28.072 +00:00] [INF] [10] Jellyfin.Networking.PortForwardingHost: Stopping NAT discovery
+[2024-08-25 09:17:28.080 +00:00] [INF] [16] Main: Running query planner optimizations in the database... This might take a while
+[2024-08-25 09:17:28.125 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins": Cancelling
+[2024-08-25 09:17:28.125 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins": Waiting on Task
+[2024-08-25 09:17:28.131 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Cancelled after 0 minute(s) and 0 seconds
+[2024-08-25 09:17:28.154 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins": Task exited
+[2024-08-25 09:17:28.154 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Aborted after 0 minute(s) and 0 seconds
+[2024-08-25 09:17:28.161 +00:00] [INF] [16] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2024-08-25 09:17:28.162 +00:00] [INF] [16] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzArtistProvider"
+[2024-08-25 09:17:28.162 +00:00] [INF] [16] Emby.Server.Implementations.ApplicationHost: Disposing "MusicBrainzAlbumProvider"
+[2024-08-25 09:17:28.162 +00:00] [INF] [16] Emby.Server.Implementations.ApplicationHost: Disposing "PluginManager"
+[2024-08-25 09:17:31.813 +00:00] [INF] [1] Main: Jellyfin version: "10.9.9"
+[2024-08-25 09:17:31.833 +00:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_LOG_DIR, /config/log]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_DATA_DIR, /config]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]"]
+[2024-08-25 09:17:31.835 +00:00] [INF] [1] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2024-08-25 09:17:31.835 +00:00] [INF] [1] Main: Operating system: "Debian GNU/Linux 12 (bookworm)"
+[2024-08-25 09:17:31.835 +00:00] [INF] [1] Main: Architecture: X64
+[2024-08-25 09:17:31.836 +00:00] [INF] [1] Main: 64-Bit Process: True
+[2024-08-25 09:17:31.836 +00:00] [INF] [1] Main: User Interactive: True
+[2024-08-25 09:17:31.836 +00:00] [INF] [1] Main: Processor count: 4
+[2024-08-25 09:17:31.836 +00:00] [INF] [1] Main: Program data path: "/config"
+[2024-08-25 09:17:31.836 +00:00] [INF] [1] Main: Log directory path: "/config/log"
+[2024-08-25 09:17:31.836 +00:00] [INF] [1] Main: Config directory path: "/config/config"
+[2024-08-25 09:17:31.836 +00:00] [INF] [1] Main: Cache path: "/cache"
+[2024-08-25 09:17:31.836 +00:00] [INF] [1] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2024-08-25 09:17:31.836 +00:00] [INF] [1] Main: Application directory: "/jellyfin/"
+[2024-08-25 09:17:31.970 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2024-08-25 09:17:32.003 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2024-08-25 09:17:32.086 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 09:17:32.086 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions: []
+[2024-08-25 09:17:32.087 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Used LAN subnets: ["127.0.0.1/8", "10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"]
+[2024-08-25 09:17:32.088 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered interface addresses: ["127.0.0.1", "172.18.0.2"]
+[2024-08-25 09:17:32.089 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Bind Addresses ["0.0.0.0"]
+[2024-08-25 09:17:32.089 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Remote IP filter is "Allowlist"
+[2024-08-25 09:17:32.089 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Filtered subnets: []
+[2024-08-25 09:17:33.702 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "TMDb" "10.9.9.0"
+[2024-08-25 09:17:33.702 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "Studio Images" "10.9.9.0"
+[2024-08-25 09:17:33.703 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.9.9.0"
+[2024-08-25 09:17:33.724 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.9.9.0"
+[2024-08-25 09:17:33.724 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.9.9.0"
+[2024-08-25 09:17:33.820 +00:00] [INF] [1] Main: Kestrel is listening on "0.0.0.0"
+[2024-08-25 09:17:34.481 +00:00] [WRN] [1] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware: The WebRootPath was not found: "/wwwroot". Static files may be unavailable.
+[2024-08-25 09:17:34.512 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2024-08-25 09:17:34.533 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-08-26 03:00:00.000 +00:00, which is 17:42:25.4669959 from now.
+[2024-08-25 09:17:34.537 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-08-26 02:00:00.000 +00:00, which is 16:42:25.4628586 from now.
+[2024-08-25 09:17:34.571 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "6.0.1"
+[2024-08-25 09:17:34.629 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["libdav1d", "av1", "av1_cuvid", "av1_qsv", "h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8", "libvpx", "vp8_cuvid", "vp8_qsv", "vp9", "libvpx-vp9", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "dca", "flac", "mp3", "truehd"]
+[2024-08-25 09:17:34.652 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libsvtav1", "av1_nvenc", "av1_qsv", "av1_amf", "av1_vaapi", "libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mjpeg_qsv", "mjpeg_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "libfdk_aac", "ac3", "alac", "dca", "flac", "libmp3lame", "libopus", "truehd", "libvorbis", "srt"]
+[2024-08-25 09:17:34.676 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available filters: ["deinterlace_qsv", "deinterlace_vaapi", "hwupload_cuda", "hwupload_vaapi", "libplacebo", "overlay_opencl", "overlay_qsv", "overlay_vaapi", "overlay_vulkan", "overlay_cuda", "procamp_vaapi", "scale_cuda", "scale_opencl", "scale_qsv", "scale_vaapi", "scale_vulkan", "tonemap_cuda", "tonemap_opencl", "tonemap_vaapi", "vpp_qsv", "yadif_cuda", "zscale", "alphasrc"]
+[2024-08-25 09:17:34.820 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["cuda", "vaapi", "qsv", "drm", "opencl", "vulkan"]
+[2024-08-25 09:17:35.384 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2024-08-25 09:17:35.385 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "00a79f52b1614beb8dc9ed365acf9661"
+[2024-08-25 09:17:35.385 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2024-08-25 09:17:35.385 +00:00] [INF] [1] Main: Startup complete 0:00:03.7323342
+[2024-08-25 09:17:35.396 +00:00] [INF] [11] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:17:37.195 +00:00] [INF] [16] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:17:37.532 +00:00] [INF] [10] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:17:37.559 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
+[2024-08-25 09:17:39.109 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-08-25 09:17:42.429 +00:00] [INF] [8] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:17:42.607 +00:00] [INF] [15] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:17:43.237 +00:00] [INF] [16] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:17:43.417 +00:00] [INF] [16] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:17:43.860 +00:00] [INF] [17] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:17:44.030 +00:00] [INF] [10] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:17:47.970 +00:00] [INF] [10] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:17:48.155 +00:00] [INF] [18] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:18:57.479 +00:00] [INF] [8] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-08-25 09:18:57.493 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionManager: Logging out access token "fd3c597545ad4bd784591576c759ae23"
+[2024-08-25 09:19:01.211 +00:00] [INF] [20] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "root" has succeeded.
+[2024-08-25 09:19:01.211 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "root": 0/0
+[2024-08-25 09:19:01.213 +00:00] [INF] [20] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user e24232a2-d5b9-4ce3-8823-3b8f20810b07
+[2024-08-25 09:19:01.287 +00:00] [INF] [22] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" request
+[2024-08-25 09:19:16.783 +00:00] [INF] [15] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-08-25 09:19:16.972 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:19:17.056 +00:00] [WRN] [15] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-08-25 09:19:17.224 +00:00] [INF] [20] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/media/Young.Sheldon.S04E18.iNTERNAL.720p.x265-ZMNT.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-08-25 09:19:17.224 +00:00] [INF] [23] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Starting "/usr/lib/jellyfin-ffmpeg/ffprobe" with args "-analyzeduration 200M -probesize 1G -i file:\"/media2/Young.Sheldon.S04E17.iNTERNAL.720p.x265-ZMNT.mkv\" -threads 0 -v warning -print_format json -show_streams -show_chapters -show_format"
+[2024-08-25 09:19:29.885 +00:00] [INF] [21] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 13 seconds
+[2024-08-25 09:19:29.950 +00:00] [INF] [23] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media2"
+[2024-08-25 09:19:29.950 +00:00] [INF] [8] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
