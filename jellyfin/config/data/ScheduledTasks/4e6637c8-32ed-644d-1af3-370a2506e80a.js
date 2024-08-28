@@ -1,1 +1,1 @@
-{"StartTimeUtc":"2024-08-25T01:59:59.9995069Z","EndTimeUtc":"2024-08-25T02:00:00.0015004Z","Status":"Completed","Name":"Extract Chapter Images","Key":"RefreshChapterImages","Id":"4e6637c832ed644d1af3370a2506e80a"}
+{"StartTimeUtc":"2024-08-28T02:00:01.7794009Z","EndTimeUtc":"2024-08-28T02:00:01.7815224Z","Status":"Completed","Name":"Extract Chapter Images","Key":"RefreshChapterImages","Id":"4e6637c832ed644d1af3370a2506e80a"}
