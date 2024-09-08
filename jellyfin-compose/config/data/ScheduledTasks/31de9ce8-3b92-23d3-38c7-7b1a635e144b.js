@@ -1,1 +1,1 @@
-{"StartTimeUtc":"2024-09-03T05:23:50.9968176Z","EndTimeUtc":"2024-09-03T05:23:51.0289541Z","Status":"Completed","Name":"Optimize database","Key":"OptimizeDatabaseTask","Id":"31de9ce83b9223d338c77b1a635e144b"}
+{"StartTimeUtc":"2024-09-08T05:23:54.2220575Z","EndTimeUtc":"2024-09-08T05:23:54.2669955Z","Status":"Completed","Name":"Optimize database","Key":"OptimizeDatabaseTask","Id":"31de9ce83b9223d338c77b1a635e144b"}
