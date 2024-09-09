@@ -2,3 +2,9 @@
 [2024-09-09 02:00:01.001 +00:00] [INF] [215] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-09-10 02:00:00.000 +00:00, which is 23:59:58.9980320 from now.
 [2024-09-09 03:00:00.002 +00:00] [INF] [3] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Generate Trickplay Images" Completed after 0 minute(s) and 0 seconds
 [2024-09-09 03:00:01.000 +00:00] [INF] [175] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-09-10 03:00:00.000 +00:00, which is 23:59:58.9997051 from now.
+[2024-09-09 07:25:56.085 +00:00] [INF] [174] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media"
+[2024-09-09 07:25:56.085 +00:00] [INF] [174] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-09-09 07:25:56.088 +00:00] [WRN] [174] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-09-09 07:25:56.091 +00:00] [WRN] [174] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-09-09 07:25:56.097 +00:00] [INF] [174] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-09-09 07:25:56.098 +00:00] [INF] [87] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"

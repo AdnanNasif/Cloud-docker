@@ -149,3 +149,87 @@
 [2024-09-09 06:37:31.116 +00:00] [INF] [131] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
 [2024-09-09 06:40:19.116 +00:00] [INF] [128] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
 [2024-09-09 06:43:07.116 +00:00] [INF] [128] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 06:47:31.116 +00:00] [INF] [57] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 06:50:19.115 +00:00] [INF] [100] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 06:53:07.115 +00:00] [INF] [118] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 06:56:31.115 +00:00] [INF] [147] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 06:59:19.116 +00:00] [INF] [141] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:02:07.116 +00:00] [INF] [8] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:05:31.116 +00:00] [INF] [139] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:08:19.115 +00:00] [INF] [135] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:11:07.116 +00:00] [INF] [99] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:14:31.115 +00:00] [INF] [150] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:17:19.115 +00:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:20:07.116 +00:00] [INF] [36] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:23:31.116 +00:00] [INF] [68] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:26:19.116 +00:00] [INF] [105] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:29:07.115 +00:00] [INF] [41] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:32:31.116 +00:00] [INF] [109] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:35:19.115 +00:00] [INF] [163] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:38:07.115 +00:00] [INF] [58] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:41:31.116 +00:00] [INF] [84] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:44:19.114 +00:00] [INF] [94] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:47:07.115 +00:00] [INF] [51] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:50:31.115 +00:00] [INF] [22] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:53:19.115 +00:00] [INF] [115] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:56:07.115 +00:00] [INF] [62] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 07:59:31.115 +00:00] [INF] [32] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:02:19.115 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:05:07.116 +00:00] [INF] [26] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:08:31.116 +00:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:11:19.115 +00:00] [INF] [114] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:14:07.116 +00:00] [INF] [91] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:17:31.117 +00:00] [INF] [96] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:20:19.115 +00:00] [INF] [150] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:23:07.116 +00:00] [INF] [150] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:26:31.115 +00:00] [INF] [153] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:29:19.115 +00:00] [INF] [8] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:32:07.115 +00:00] [INF] [40] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:35:31.116 +00:00] [INF] [75] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:38:19.116 +00:00] [INF] [118] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:41:07.115 +00:00] [INF] [21] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:44:31.115 +00:00] [INF] [55] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:47:19.116 +00:00] [INF] [27] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:50:07.116 +00:00] [INF] [76] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:53:31.116 +00:00] [INF] [122] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:56:19.115 +00:00] [INF] [44] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 08:59:07.115 +00:00] [INF] [37] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:02:31.116 +00:00] [INF] [91] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:05:19.115 +00:00] [INF] [78] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:08:07.116 +00:00] [INF] [43] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:11:04.717 +00:00] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media"
+[2024-09-09 09:11:04.717 +00:00] [INF] [26] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media2"
+[2024-09-09 09:11:04.717 +00:00] [INF] [26] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-09-09 09:11:04.723 +00:00] [WRN] [26] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-09-09 09:11:04.758 +00:00] [WRN] [48] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-09-09 09:11:04.764 +00:00] [INF] [26] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-09-09 09:11:04.765 +00:00] [INF] [60] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
+[2024-09-09 09:11:04.765 +00:00] [INF] [109] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media2"
+[2024-09-09 09:11:31.116 +00:00] [INF] [60] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:14:19.115 +00:00] [INF] [111] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:17:07.116 +00:00] [INF] [10] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:17:35.605 +00:00] [INF] [155] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-09-09 09:20:31.116 +00:00] [INF] [111] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:23:19.115 +00:00] [INF] [102] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:26:07.115 +00:00] [INF] [78] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:29:31.116 +00:00] [INF] [130] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:32:19.115 +00:00] [INF] [133] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:35:07.115 +00:00] [INF] [145] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:38:31.116 +00:00] [INF] [142] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:41:19.116 +00:00] [INF] [137] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:44:07.115 +00:00] [INF] [80] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:47:31.115 +00:00] [INF] [82] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:50:19.116 +00:00] [INF] [64] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:53:07.116 +00:00] [INF] [65] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:56:31.115 +00:00] [INF] [79] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 09:59:19.115 +00:00] [INF] [35] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 10:02:07.115 +00:00] [INF] [98] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 10:05:31.115 +00:00] [INF] [101] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 10:08:19.115 +00:00] [INF] [92] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 10:11:43.115 +00:00] [INF] [91] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 10:14:31.116 +00:00] [INF] [109] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 10:17:19.116 +00:00] [INF] [67] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 10:20:07.115 +00:00] [INF] [38] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 10:23:31.115 +00:00] [INF] [45] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 10:26:19.115 +00:00] [INF] [17] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2024-09-09 10:28:47.906 +00:00] [INF] [132] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
