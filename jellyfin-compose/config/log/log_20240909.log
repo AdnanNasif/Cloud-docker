@@ -233,3 +233,11 @@
 [2024-09-09 10:23:31.115 +00:00] [INF] [45] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
 [2024-09-09 10:26:19.115 +00:00] [INF] [17] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
 [2024-09-09 10:28:47.906 +00:00] [INF] [132] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "192.168.1.9" closed
+[2024-09-09 21:11:04.764 +00:00] [INF] [185] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media"
+[2024-09-09 21:11:04.765 +00:00] [INF] [185] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media2"
+[2024-09-09 21:11:04.765 +00:00] [INF] [185] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-09-09 21:11:04.771 +00:00] [WRN] [185] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-09-09 21:11:04.777 +00:00] [WRN] [188] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-09-09 21:11:04.783 +00:00] [INF] [188] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-09-09 21:11:04.825 +00:00] [INF] [189] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
+[2024-09-09 21:11:04.826 +00:00] [INF] [184] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media2"
