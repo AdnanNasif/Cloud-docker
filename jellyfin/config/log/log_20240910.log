@@ -8,3 +8,21 @@
 [2024-09-10 07:25:56.514 +00:00] [WRN] [94] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
 [2024-09-10 07:25:56.518 +00:00] [INF] [194] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
 [2024-09-10 07:25:56.518 +00:00] [INF] [207] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
+[2024-09-10 19:25:50.616 +00:00] [INF] [194] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2024-09-10 19:25:50.675 +00:00] [INF] [194] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2024-09-10 19:25:50.722 +00:00] [INF] [194] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2024-09-10 19:25:50.768 +00:00] [INF] [58] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Audio Normalization" Completed after 0 minute(s) and 0 seconds
+[2024-09-10 19:25:50.800 +00:00] [INF] [58] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2024-09-10 19:25:50.856 +00:00] [INF] [58] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2024-09-10 19:25:51.563 +00:00] [INF] [58] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2024-09-10 19:25:51.589 +00:00] [INF] [58] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: jellyfin.db optimized successfully!
+[2024-09-10 19:25:51.589 +00:00] [INF] [58] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2024-09-10 19:25:56.518 +00:00] [INF] [193] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media"
+[2024-09-10 19:25:56.519 +00:00] [INF] [193] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-09-10 19:25:56.521 +00:00] [WRN] [193] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-09-10 19:25:56.524 +00:00] [WRN] [94] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-09-10 19:25:56.528 +00:00] [INF] [94] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-09-10 19:25:56.529 +00:00] [INF] [193] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
+[2024-09-10 19:25:58.954 +00:00] [INF] [58] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-09-10 20:25:57.779 +00:00] [INF] [147] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
+[2024-09-10 20:25:57.781 +00:00] [INF] [147] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
