@@ -144,3 +144,14 @@
 [2024-09-11 04:47:52.042 +00:00] [INF] [1] Main: Startup complete 0:00:04.9507657
 [2024-09-11 04:47:54.043 +00:00] [INF] [17] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
 [2024-09-11 04:47:55.928 +00:00] [INF] [10] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-09-11 05:23:53.208 +00:00] [INF] [94] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2024-09-11 05:23:53.297 +00:00] [INF] [92] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Audio Normalization" Completed after 0 minute(s) and 0 seconds
+[2024-09-11 05:23:53.325 +00:00] [INF] [94] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2024-09-11 05:23:53.350 +00:00] [INF] [96] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2024-09-11 05:23:53.390 +00:00] [INF] [96] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2024-09-11 05:23:53.426 +00:00] [INF] [96] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2024-09-11 05:23:54.337 +00:00] [INF] [96] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2024-09-11 05:23:54.397 +00:00] [INF] [96] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: jellyfin.db optimized successfully!
+[2024-09-11 05:23:54.397 +00:00] [INF] [96] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds
+[2024-09-11 06:24:08.408 +00:00] [INF] [71] Jellyfin.LiveTv.Guide.GuideManager: Refreshing guide with 7 days of guide data
+[2024-09-11 06:24:08.414 +00:00] [INF] [71] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds

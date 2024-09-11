@@ -55,3 +55,9 @@
 [2024-09-11 04:47:52.134 +00:00] [INF] [1] Main: Startup complete 0:00:05.1312967
 [2024-09-11 04:47:53.954 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean up collections and playlists" Completed after 0 minute(s) and 0 seconds
 [2024-09-11 04:47:55.621 +00:00] [INF] [8] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Update Plugins" Completed after 0 minute(s) and 1 seconds
+[2024-09-11 07:25:56.533 +00:00] [INF] [118] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media"
+[2024-09-11 07:25:56.535 +00:00] [INF] [118] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2024-09-11 07:25:56.737 +00:00] [WRN] [118] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-09-11 07:25:56.792 +00:00] [WRN] [118] MediaBrowser.Controller.Entities.BaseItem: Library folder "/config/data/playlists" is inaccessible or empty, skipping
+[2024-09-11 07:25:56.911 +00:00] [INF] [118] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 0 seconds
+[2024-09-11 07:25:56.912 +00:00] [INF] [122] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory "/media"
