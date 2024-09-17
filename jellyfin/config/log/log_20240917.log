@@ -1,0 +1,4 @@
+[2024-09-17 02:00:00.733 +00:00] [INF] [44] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2024-09-17 02:00:01.723 +00:00] [INF] [45] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-09-18 02:00:00.000 +00:00, which is 23:59:58.2768175 from now.
+[2024-09-17 03:00:00.724 +00:00] [INF] [97] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Generate Trickplay Images" Completed after 0 minute(s) and 0 seconds
+[2024-09-17 03:00:01.723 +00:00] [INF] [99] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-09-18 03:00:00.000 +00:00, which is 23:59:58.2770259 from now.
