@@ -1,0 +1,13 @@
+[2024-09-22 02:00:00.008 +00:00] [INF] [58] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Extract Chapter Images" Completed after 0 minute(s) and 0 seconds
+[2024-09-22 02:00:01.000 +00:00] [INF] [62] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extract Chapter Images" set to fire at 2024-09-23 02:00:00.000 +00:00, which is 23:59:58.9991799 from now.
+[2024-09-22 03:00:00.002 +00:00] [INF] [215] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Generate Trickplay Images" Completed after 0 minute(s) and 0 seconds
+[2024-09-22 03:00:01.000 +00:00] [INF] [46] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Generate Trickplay Images" set to fire at 2024-09-23 03:00:00.000 +00:00, which is 23:59:58.9998227 from now.
+[2024-09-22 05:23:54.869 +00:00] [INF] [66] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2024-09-22 05:23:54.978 +00:00] [INF] [198] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Audio Normalization" Completed after 0 minute(s) and 0 seconds
+[2024-09-22 05:23:55.005 +00:00] [INF] [197] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2024-09-22 05:23:55.033 +00:00] [INF] [197] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2024-09-22 05:23:55.059 +00:00] [INF] [197] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2024-09-22 05:23:55.089 +00:00] [INF] [197] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2024-09-22 05:23:56.466 +00:00] [INF] [197] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: Optimizing and vacuuming jellyfin.db...
+[2024-09-22 05:23:56.500 +00:00] [INF] [197] Emby.Server.Implementations.ScheduledTasks.Tasks.OptimizeDatabaseTask: jellyfin.db optimized successfully!
+[2024-09-22 05:23:56.500 +00:00] [INF] [197] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Optimize database" Completed after 0 minute(s) and 0 seconds

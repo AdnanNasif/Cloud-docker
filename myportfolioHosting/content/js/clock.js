@@ -1,12 +1,21 @@
 function updateClock() {
     const now = new Date();
-    const hours = now.getHours().toString().padStart(2, '0');
+    let hours = now.getHours();
     const minutes = now.getMinutes().toString().padStart(2, '0');
     const seconds = now.getSeconds().toString().padStart(2, '0');
+    
+    // Convert to 12-hour format
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12;
+    hours = hours ? hours : 12; // If hours is 0, set it to 12
+
+    hours = hours.toString().padStart(2, '0');
+    
     const clockElement = document.getElementById('clock');
-    clockElement.textContent = `${hours}:${minutes}:${seconds}`;
+    clockElement.textContent = `${hours}:${minutes}:${seconds} ${ampm}`;
 }
 
-// Update the clock immediately and then every second
-updateClock();
-setInterval(updateClock, 1000);
+document.addEventListener('DOMContentLoaded', () => {
+    updateClock();
+    setInterval(updateClock, 1000);
+});

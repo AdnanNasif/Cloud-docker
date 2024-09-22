@@ -1,1 +1,1 @@
-{"StartTimeUtc":"2024-09-19T02:59:59.999214Z","EndTimeUtc":"2024-09-19T03:00:00.0012918Z","Status":"Completed","Name":"Generate Trickplay Images","Key":"RefreshTrickplayImages","Id":"64f5f44cd30dc273cb9890205473bbcc"}
+{"StartTimeUtc":"2024-09-22T02:59:59.9999683Z","EndTimeUtc":"2024-09-22T03:00:00.0020443Z","Status":"Completed","Name":"Generate Trickplay Images","Key":"RefreshTrickplayImages","Id":"64f5f44cd30dc273cb9890205473bbcc"}
