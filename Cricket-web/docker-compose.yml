@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  apache:
+    image: httpd:2.4
+    container_name: my-apache
+    ports:
+      - "8080:80"  # host:container
+    volumes:
+      - ./site:/usr/local/apache2/htdocs/  # mount local site files

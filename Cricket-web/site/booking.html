@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Slot - Buffalo Indoor Cricket</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2em;
+      background-color: #f2f2f2;
+    }
+    h1 {
+      text-align: center;
+      color: #b22222;
+    }
+    .form-container {
+      max-width: 500px;
+      margin: 2em auto;
+      background: white;
+      padding: 2em;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+    }
+    select, input[type="number"] {
+      width: 100%;
+      padding: 0.7em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #b22222;
+      color: white;
+      border: none;
+      padding: 0.8em 2em;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .result {
+      margin-top: 1.5em;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Book Your Slot</h1>
+  <div class="form-container">
+    <label for="hours">Number of Hours</label>
+    <input type="number" id="hours" min="1" value="1" />
+
+    <label for="machine">Include Bowling Machine?</label>
+    <select id="machine">
+      <option value="no">No</option>
+      <option value="yes">Yes</option>
+    </select>
+
+    <button onclick="calculateTotal()">Calculate Total</button>
+    <div class="result" id="total"></div>
+  </div>
+
+  <script>
+    function calculateTotal() {
+      const hours = parseInt(document.getElementById('hours').value);
+      const machine = document.getElementById('machine').value;
+      let total = 0;
+
+      if (machine === 'yes') {
+        total = hours * 45;
+      } else {
+        total = hours * 35;
+      }
+
+      document.getElementById('total').innerText = `Total Cost: $${total}`;
+    }
+  </script>
+</body>
+</html>
+
