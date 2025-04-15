@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  apache:
+    build: .  # This tells Docker to build the image from the Dockerfile in the current directory
+    container_name: apache_php
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/var/www/html
+      - ./apache-config/custom.ini:/usr/local/etc/php/conf.d/custom.ini
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:5.7
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: hi@PCuser#2!
+      MYSQL_DATABASE: auth_demo
+      MYSQL_USER: adnan
+      MYSQL_PASSWORD: 123456
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+volumes:
+  mysql_data:
