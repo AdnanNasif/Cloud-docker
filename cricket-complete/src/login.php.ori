@@ -16,11 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $user = $result->fetch_assoc();
 
         if (password_verify($password, $user['password'])) {
-            // ✅ Store everything needed in session
-            $_SESSION['user_id'] = $user['id'];
-            $_SESSION['username'] = $user['name'];
-            $_SESSION['user_email'] = $user['email'];  // ✅ Use consistent key: user_email
-            header("Location: booking.php"); // or booking.html if needed
+            $_SESSION['user'] = $user;
+            header("Location: booking.html"); // ✅ Redirects to booking.html
             exit();
         } else {
             echo "❌ Incorrect password.";
@@ -34,4 +31,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 $conn->close();
 ?>
-

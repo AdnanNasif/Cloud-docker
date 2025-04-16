@@ -9,6 +9,32 @@
       margin: 0;
       font-family: Arial, sans-serif;
     }
+
+    /* Top bar */
+    .top-bar {
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: flex-end;
+      padding: 0.5em 1em;
+    }
+
+    .top-bar button {
+      padding: 0.5em 1em;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.95em;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .top-bar button:hover {
+      background-color: white;
+      color: black;
+    }
+
     .banner {
       background: url('https://i.postimg.cc/k5r9cmz6/indoor.jpg') center/cover no-repeat;
       height: 400px;
@@ -19,14 +45,17 @@
       color: white;
       text-align: center;
     }
+
     .banner h1 {
       font-size: 2.5em;
       margin: 0.2em 0;
     }
+
     .banner p {
       font-size: 1.2em;
       margin: 0.2em 0 1em 0;
     }
+
     .banner button {
       padding: 0.7em 1.5em;
       background-color: #b22222;
@@ -36,19 +65,23 @@
       cursor: pointer;
       border-radius: 5px;
     }
+
     .banner button:hover {
       background-color: #8b1a1a;
     }
+
     .content {
       padding: 2em;
       text-align: center;
     }
+
     .content p {
       font-size: 1.4em;
       max-width: 800px;
       margin: 0 auto 2em auto;
       line-height: 1.6;
     }
+
     .slot-options button {
       margin: 0.5em;
       padding: 1em 2em;
@@ -59,18 +92,21 @@
       font-size: 1em;
       cursor: pointer;
     }
+
     iframe {
       width: 60%;
       height: 400px;
       border: none;
       margin-top: 2em;
     }
+
     .footer {
       background-color: black;
       color: white;
       padding: 2em 0;
       text-align: center;
     }
+
     .footer button {
       margin: 0.5em;
       padding: 1em 2em;
@@ -84,11 +120,20 @@
   </style>
 </head>
 <body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <button onclick="window.location.href='book_redirect.php'">Signin/Signup</button>
+  </div>
+
+  <!-- Banner Section -->
   <div class="banner">
     <h1>Buffalo’s Premier<br>Indoor Cricket Arena</h1>
     <p>Book. Play, Dominate.</p>
     <button onclick="window.location.href='book_redirect.php'">BOOK A SLOT</button>
   </div>
+
+  <!-- Content Section -->
   <div class="content">
     <p>
       Welcome to Buffalo Indoor Cricket Ground & Shop!<br>
@@ -105,9 +150,12 @@
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2928.0662156547764!2d-78.82307092389748!3d42.880230171150085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d30d2cfaa2c5a7%3A0xdad7dbb731c6eb9d!2sBuffalo%2C%20NY!5e0!3m2!1sen!2sus!4v1616608995404!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
   </div>
+
+  <!-- Footer -->
   <div class="footer">
     <button>LOCATE US</button>
     <button>CONTACT</button>
   </div>
+
 </body>
 </html>
