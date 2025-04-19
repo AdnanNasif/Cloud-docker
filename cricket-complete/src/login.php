@@ -16,9 +16,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $user = $result->fetch_assoc();
 
         if (password_verify($password, $user['password'])) {
-            // ✅ Store all required user details in session
+            // Store all required user details in session
             $_SESSION['user_id'] = $user['id'];
-            $_SESSION['username'] = $user['username'];  // ✅ Ensure this is set
+            $_SESSION['username'] = $user['username'];
+            $_SESSION['name'] = $user['name']; // Add this to set the name
             $_SESSION['user_email'] = $user['email'];
             $_SESSION['is_admin'] = $user['is_admin'];
 

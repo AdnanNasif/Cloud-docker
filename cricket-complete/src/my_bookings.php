@@ -110,7 +110,7 @@ $conn->close();
         .calendar-container {
             max-width: 900px;
             margin: 30px auto;
-            background: linear-gradient(135deg, #ffffff, #f8fafc); /* Subtle gradient */
+            background: linear-gradient(135deg, #ffffff, #f8fafc);
             border-radius: 16px;
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
             padding: 30px;
@@ -163,7 +163,7 @@ $conn->close();
             padding: 15px;
             cursor: pointer;
             transition: all 0.3s ease;
-            min-height: 80px; /* Ensure enough space for booking times */
+            min-height: 80px;
         }
         .calendar-day:hover {
             background-color: #f1f3f5;
@@ -171,7 +171,7 @@ $conn->close();
             transform: translateY(-2px);
         }
         .calendar-day.booked {
-            background: linear-gradient(135deg, #1abc9c, #16a085); /* Modern gradient */
+            background: linear-gradient(135deg, #1abc9c, #16a085);
             color: white;
             border: 1px solid #16a085;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -266,7 +266,7 @@ $conn->close();
     <h1>My Bookings</h1>
     <div class="hamburger" onclick="toggleDropdown()">☰
         <div class="dropdown-menu" id="dropdownMenu">
-            <p>Logged in as <strong><?= isset($_SESSION['email']) && !empty($_SESSION['email']) ? htmlspecialchars($_SESSION['email']) : 'User'; ?></strong></p>
+            <p>Logged in as <strong><?= isset($_SESSION['name']) && !empty($_SESSION['name']) ? htmlspecialchars($_SESSION['name']) : 'User'; ?></strong></p>
             <a href="logout.php">Logout</a>
         </div>
     </div>
