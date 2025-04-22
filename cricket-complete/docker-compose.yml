@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   apache:
-    build: .  # This tells Docker to build the image from the Dockerfile in the current directory
+    build: .
     container_name: apache_php
     ports:
       - "80:80"

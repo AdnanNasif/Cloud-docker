@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete_id'])) {
   exit();
 }
 
-$stmt = $conn->prepare("SELECT b.*, u.username, u.email FROM bookings b JOIN users u ON b.user_id = u.id WHERE booking_date BETWEEN ? AND ? ORDER BY booking_date, booking_time");
+$stmt = $conn->prepare("SELECT b.*, u.name, u.email FROM bookings b JOIN users u ON b.user_id = u.id WHERE booking_date BETWEEN ? AND ? ORDER BY booking_date, booking_time");
 $stmt->bind_param("ss", $startDate, $endDate);
 $stmt->execute();
 $result = $stmt->get_result();
@@ -186,7 +186,7 @@ $conn->close();
   <h1>Admin Dashboard - All Bookings</h1>
   <div class="hamburger" onclick="toggleDropdown()">☰
     <div class="dropdown-menu" id="dropdownMenu">
-      <p>Logged in as <strong><?= htmlspecialchars($_SESSION['username'] ?? 'Admin'); ?></strong></p>
+      <p>Logged in as <strong><?= htmlspecialchars($_SESSION['name'] ?? 'Admin'); ?></strong></p>
       <a href="logout.php">Logout</a>
     </div>
   </div>
@@ -194,9 +194,9 @@ $conn->close();
 
 <div class="calendar-container">
   <div class="calendar-header">
-    <a href="?month=<?= ($currentMonth == 1 ? 12 : $currentMonth - 1); ?>&year=<?= ($currentMonth == 1 ? $currentYear - 1 : $currentYear); ?>">&laquo; Prev</a>
+    <a href="?month=<?= ($currentMonth == 1 ? 12 : $currentMonth - 1); ?>&year=<?= ($currentMonth == 1 ? $currentYear - 1 : $currentYear); ?>">« Prev</a>
     <?= date('F Y', strtotime("$currentYear-$monthStr-01")); ?>
-    <a href="?month=<?= ($currentMonth == 12 ? 1 : $currentMonth + 1); ?>&year=<?= ($currentMonth == 12 ? $currentYear + 1 : $currentYear); ?>">Next &raquo;</a>
+    <a href="?month=<?= ($currentMonth == 12 ? 1 : $currentMonth + 1); ?>&year=<?= ($currentMonth == 12 ? $currentYear + 1 : $currentYear); ?>">Next »</a>
   </div>
   <div class="calendar-days">
     <?php
@@ -232,7 +232,7 @@ $conn->close();
 
 <div class="modal" id="bookingModal">
   <div class="modal-content">
-    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <span class="close-btn" onclick="closeModal()">×</span>
     <h3>Bookings on <span id="modalDate"></span></h3>
     <div id="modalContent"></div>
   </div>
@@ -257,7 +257,7 @@ $conn->close();
             <strong>Machine:</strong> ${b.machine}<br>
             <strong>Hours:</strong> ${b.hours}<br>
             <strong>Total Cost:</strong> $${b.total_cost}<br>
-            <strong>User:</strong> ${b.username} (${b.email})<br>
+            <strong>User:</strong> ${b.name} (${b.email})<br>
             <button type="submit" onclick="return confirm('Are you sure you want to delete this booking?')">Delete Booking</button>
           </form>
         </div>
